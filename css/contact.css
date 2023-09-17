@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+    background-color: #18322f;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+    margin-right: 80px;
+  }   
+  .lists{
+    margin: auto;
+  }
+.section {
+    background-color: #18322f;
+    display: flex;
+    font-family: poppins;
+    gap: 50px;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 100px;
+  
+}
+.field{
+    width: 100%;
+    height: 75vh;
+}
+.ad{
+    display: flex;
+   gap: 16px;
+}
+.fill{
+    padding-top: 90px;
+    color: white;
+font-size: 1rem;
+}
+.fill h3{
+    color: #749075;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+form{
+    /* background-color:#74907596; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    max-width: 600px;
+    border: 1px solid #74907580;
+    width: 90%;
+    border-radius: 10px;
+}
+form h3{
+    color: white;
+    font-family: allerta;
+    margin-bottom: 5px;
+}
+form input{
+    border: 0;
+    margin: 10px 0;
+    padding: 10px 60PX 10PX 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #749075;
+    font-size: 16px;
+    color: white;
+}
+form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #749075;
+    font-size: 16px;
+    color: white;
+}
+ form button{
+    padding: 20px 5px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #749075;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    margin: 20px auto 0;
+    cursor: pointer;
+
+}

@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #18322f;
+ }
+ .head-1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: #749075;
+ }

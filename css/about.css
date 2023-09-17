@@ -1,0 +1,47 @@
+body{
+    background-color: #18322f;
+    color: #749075;
+   font-family: poppins;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+  } 
+  .lists{
+ margin: auto;
+  }
+.one p{
+    color: white;
+    font-size: 25;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+p{
+    color: white;
+    font-size: 25;
+} 
+
+section{
+    margin: 0 300px 40px 300px;
+}
+.title{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.heading{
+    display: flex;
+    gap: 20px;
+}
+.line{
+    width: 98%;
+    height: 2px;
+    background-color: #749075;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}

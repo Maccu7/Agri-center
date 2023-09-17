@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Regular.ttf');
+    
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #18322F;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    margin-top: 130px;
+    width: 100%;
+    height: 100vh;
+  }
+  .container h1{
+    text-transform: uppercase;
+    color:#749075;
+    margin-left: 420px;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+  .address{
+ background-color: white;
+ width: 30%;
+ margin-left: 300px;
+ padding: 20px;
+ margin-bottom: 20px;
+  }
+  .address h2{
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+  .address button{
+    width: 180px;
+    height: 3.5vh;
+    background-color: white;
+
+  }
+  .address button i{
+    margin-left: 160px;
+    font-weight: bolder;
+  }
+  .dropdown-content {
+  display: none;
+  margin-left: 330px;
+  margin-top: -50px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.show {
+  display: block;
+}
+.email{
+ background-color: white;
+ width: 30%;
+ margin-left: 300px;
+ padding: 20px;
+ margin-bottom: 20px;
+}
+.email h2{
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+.email button{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    background-color: #749075;
+    border: none;
+    border-radius: 2px;
+    padding:3px 7px;
+}
+.email input{
+    width: 180px;
+    height: 3.5vh;
+  }
+.payment{
+background-color: white;
+ width: 30%;
+ margin-left: 300px;
+ padding: 30px;
+ margin-bottom:40px;
+ text-transform: uppercase;
+ color: black;
+ font-size: 20px;
+ font-weight: bold;
+}
+.btn{
+background-color: #749075;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+width: 15%;
+border: none;
+margin-left: 380px;
+padding: 10px;
+margin-bottom: 100px;
+}
+p{
+    margin-left: 230px;
+    text-align: center;
+}
