@@ -6,9 +6,9 @@ body {
 }
 .container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -33,14 +33,14 @@ body {
 }
 
 .form-group input {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #18322f;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #18322f;
 }
 
 p {
@@ -57,7 +57,7 @@ p {
 }
 
 a {
-    color: #007bff;
+    color: #18322f;
     text-decoration: none;
 }
 
